@@ -1,9 +1,13 @@
 import React from 'react'
 
-function TestimonialItem() {
+function TestimonialItem({texto}:any) {
   return (
-    <div></div>
+    <div>
+        <div>
+          {texto}  
+        </div>
+        
+    </div>
   )
-}
-
+  }
 export default TestimonialItem
