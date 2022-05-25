@@ -12,11 +12,12 @@ function App() {
     .then(json => setDados(json.value))
   }, [Njoke])
   
-  return <div>
+  return <div className='p-10 '>
    <TestimonialItem texto={Dados}/>
    <button onClick={()=> {
 setNjoke(Njoke + 1)
    }}>Next</button>
+   <p></p>
   </div>
 }
 
