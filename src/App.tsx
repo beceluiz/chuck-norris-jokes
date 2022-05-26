@@ -17,7 +17,7 @@ function App() {
       <TestimonialItem  texto={Dados}/>
       </div>
       <span className='flex justify-center px-1.5 py-1.5'>
-        <button className='text-sky-100 hover:text-black border border-sky-300 hover:bg-sky-100 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-500 dark:hover:text-white dark:hover:bg-sky-600 dark:focus:ring-sky-800' onClick={()=> {
+        <button className='text-sky-100 hover:text-black border border-sky-300 hover:bg-sky-100 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ' onClick={()=> {
 setNjoke(Njoke + 1)
    }}>Next Joke</button>
       </span>
