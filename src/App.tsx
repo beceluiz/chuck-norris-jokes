@@ -12,15 +12,15 @@ function App() {
     .then(json => setDados(json.value))
   }, [Njoke])
   
-  return <div className=' p-10'>
-    <div>
-      <TestimonialItem texto={Dados}/>
-   <button className='text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-800"' onClick={()=> {
+  return <div className='block items-center'>
+    <div className='px-2.5 py-2.5 mx-auto'>
+      <TestimonialItem  texto={Dados}/>
+      </div>
+      <span className='flex justify-center px-1.5 py-1.5'>
+        <button className='text-sky-100 hover:text-black border border-sky-300 hover:bg-sky-100 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-500 dark:hover:text-white dark:hover:bg-sky-600 dark:focus:ring-sky-800' onClick={()=> {
 setNjoke(Njoke + 1)
    }}>Next Joke</button>
-   <p></p>
-    </div>
-   
+      </span>
   </div>
 }
 
