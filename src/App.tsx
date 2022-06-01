@@ -6,7 +6,9 @@ import TestimonialItem from './components/TestimonialItem';
 function App() {
   const [Joke, setJoke] = useState('');
   const [ShownJoke, setShownJoke] = useState('');
-  useEffect(() => setShownJoke(Joke), [Joke]);
+  useEffect(() => setShownJoke(Joke), [Joke])
+
+
   const updateJoke = () => {
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => response.json())
@@ -15,7 +17,7 @@ function App() {
   
   return <div className='block items-center'>
     <div className='px-2.5 py-2.5 mx-auto'>
-      <TestimonialItem texto={ShownJoke}/>
+      <TestimonialItem texto={ShownJoke === '' ? 'Chuck Norris would take 1 second to code this app' : ShownJoke}/>
       </div>
       <span className='flex justify-center px-1.5 py-1.5'>
         <button className='text-sky-100 hover:text-black border border-sky-300 hover:bg-sky-100 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ' onClick={updateJoke}>Next Joke</button>
