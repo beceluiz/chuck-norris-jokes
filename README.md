@@ -2,6 +2,8 @@
 
 <img src="src/assets/imgs/chuck.gif">
 
+
+---
 ## (!) important Info (!)
 Dont forget to run `npm install` to install all depenencies before running the project.
 
