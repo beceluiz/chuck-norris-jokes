@@ -4,9 +4,9 @@
 
 
 ---
-## You also can test the app by yourself here:
+## Test the app clicking here:
 
-
+<a href="https://chuck-norris-jokes-40l74o9yr-beceluiz.vercel.app"> Chuck Norris Jokes <a/>
 
 ## (!) important Info (!)
 Dont forget to run `npm install` to install all depenencies before running the project.
