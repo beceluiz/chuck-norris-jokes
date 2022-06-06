@@ -4,6 +4,10 @@
 
 
 ---
+## You also can test the app by yourself here:
+
+
+
 ## (!) important Info (!)
 Dont forget to run `npm install` to install all depenencies before running the project.
 
