@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import TestimonialItem from './components/TestimonialItem';
 
-function App() {
+const App = () => {
   const [Joke, setJoke] = useState(null);
   const [ShownJoke, setShownJoke] = useState(null);
   useEffect(() => setShownJoke(Joke), [Joke])
