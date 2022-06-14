@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { json } from 'stream/consumers';
 import './App.css';
 import TestimonialItem from './components/TestimonialItem';
 
